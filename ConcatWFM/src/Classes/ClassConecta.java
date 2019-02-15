@@ -24,13 +24,11 @@ public class ClassConecta {
     public ClassConecta() {    }
 
     //Dados conexao banco
-    public static String url      = "jdbc:sqlserver://SPWS-VM-DB58.tpb.corp:1433;mydatabaseName=DB_MIS_GLOBAL;";
+    public static String url      = "jdbc:sqlserver://SERVIDOR_EDITADO;mydatabaseName=BANCO_EDITADO;";
     public static String driver   = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    public static String user     = "user=usr_sist_DB_MIS_GLOBAL;";
-    public static String pwd      = "password=!@Usr_Sist_DB_MIS_GLOBAL#$;";
+    public static String user     = "user=USUARIO_EDITADO;";
+    public static String pwd      = "password=SENHA_EDITADA;";
     
-//    public static String user     = "user=usr_app_DB_MIS_GLOBAL;";
-//    public static String pwd      = "password=!@Usr_App_DB_MIS_GLOBAL#$;";
 
 
     public static Connection con = null;
